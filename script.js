@@ -1,13 +1,64 @@
-const translations={pl:{navRooms:"Pokoje",navRestaurant:"Restauracja",navBusiness:"Biznes",navLocation:"Lokalizacja",navBook:"Rezerwuj",eyebrow:"Sopot • 3 minuty od plaży",heroTitle:"Wypoczynek w sercu Sopotu",heroLead:"Kameralna Villa Sentoza przy ul. Grunwaldzkiej 89 łączy nadmorski klimat, wygodne pokoje, restaurację, zaplecze konferencyjne i szybki dostęp do najważniejszych punktów Sopotu.",heroBook:"Sprawdź rezerwację",heroRooms:"Zobacz pokoje",statRooms:"pokoi i apartamentów",statBeach:"do plaży w Sopocie",statDesk:"recepcja",quickContact:"Szybki kontakt",contactTitle:"Villa Sentoza",copyAddress:"Kopiuj adres",demoNote:"Strona koncepcyjna oparta o publiczne informacje.",amenitiesEyebrow:"Udogodnienia",amenitiesTitle:"Wszystko, czego potrzebujesz blisko morza",amenitiesLead:"Bez zbędnego teatru: wygodne pokoje, internet, parking, restauracja i przestrzeń do pracy. Cywilizacja czasem potrafi nie przeszkadzać.",featureRestaurantTitle:"Restauracja",featureRestaurantText:"Na miejscu działa restauracja Fisherman z daniami kuchni amerykańskiej, barem i tarasem.",featureParkingTitle:"Parking monitorowany",featureParkingText:"Dla gości dostępny jest parking na terenie obiektu, co w Sopocie brzmi niemal jak magia użytkowa.",featureWifiTitle:"Internet w pokoju",featureWifiText:"Wi-Fi w pokojach i częściach wspólnych pomaga pracować, planować wyjścia albo udawać, że odpoczywasz.",featureSaunaTitle:"Sauna",featureSaunaText:"Po plaży, spacerze albo konferencji można zejść z trybu człowiek-zadanie do trybu człowiek-odpoczynek.",roomsEyebrow:"Pokoje",roomsTitle:"Trzy formaty pobytu",roomsLead:"Od krótkiego city-breaku po rodzinny wyjazd. Ceny są orientacyjne, bo internet uwielbia zmieniać liczby, gdy człowiek mrugnie.",filterAll:"Wszystkie",filterTwo:"Do 2 osób",filterFour:"Do 4 osób",doublePrice:"od 320 zł / noc",doubleTitle:"Pokój dwuosobowy",doubleText:"Około 17 m², nowoczesny styl, dobry wybór na krótki pobyt lub wyjazd służbowy.",apartmentPrice:"od 410 zł / noc",apartmentTitle:"Apartament",apartmentText:"Około 40 m², sypialnia i pokój dzienny. Wygodna opcja dla maksymalnie 4 osób.",studioPrice:"od 550 zł / noc",studioTitle:"Studio",studioText:"Około 60 m², największy wariant w obiekcie, z układem na dwóch poziomach.",roomWifi:"Wi-Fi",roomFridge:"Lodówka",roomBathroom:"Prywatna łazienka",roomBalcony:"Balkon",roomSafe:"Sejf",roomTV:"TV satelitarna",roomSpace:"Duża przestrzeń",roomDesk:"Miejsce do pracy",roomHairdryer:"Suszarka",restaurantEyebrow:"Restauracja i piekarnia",restaurantTitle:"Smak blisko pokoju, czyli lenistwo w wersji premium",restaurantText:"Villa Sentoza rozwija ofertę gastronomiczną, w tym rzemieślnicze pieczywo i catering. Dla gości oznacza to prostą rzecz: mniej biegania po mieście, więcej odpoczynku.",restaurantLink:"Przejdź na stronę obiektu",businessEyebrow:"Biznes",businessTitle:"Konferencje nad morzem",businessText:"Obiekt ma zaplecze konferencyjne i salę spotkań, więc nadaje się także na szkolenia, rozmowy biznesowe i firmowe wyjazdy, gdzie ludzie udają, że nie myślą o plaży za oknem.",businessButton:"Zapytaj o ofertę",locationEyebrow:"Lokalizacja",locationTitle:"Grunwaldzka 89, Sopot",locationText:"Blisko plaży, Monte Cassino i Molo. Taka lokalizacja, gdzie plan dnia może być prosty: śniadanie, morze, spacer, kolacja, sen. Ludzkość jednak zwykle doda do tego 47 decyzji.",mapButton:"Otwórz mapę",callButton:"Zadzwoń",nearBeach:"Sopot Beach",nearMonte:"ul. Monte Cassino",nearPier:"Molo w Sopocie",nearStation:"Stacja Sopot",formEyebrow:"Kontakt",formTitle:"Zapytanie o pobyt",formLead:"Formularz jest demonstracyjny i nie wysyła danych. Bezpieczne rozwiązanie, zanim ktoś podłączy backend taśmą klejącą i nazwie to architekturą.",labelName:"Imię",labelEmail:"E-mail",labelArrival:"Przyjazd",labelDeparture:"Wyjazd",labelMessage:"Wiadomość",formButton:"Sprawdź formularz",footerNote:"Koncepcyjna strona wizytówka stworzona na bazie publicznych informacji o obiekcie.",footerContact:"Kontakt",footerLinks:"Linki",footerRooms:"Pokoje",footerMap:"Mapa",copied:"Skopiowano. Technologia przetrwała jeszcze jeden dzień.",formSuccess:"Formularz wygląda poprawnie. W prawdziwej wersji teraz poszedłby do backendu.",formError:"Uzupełnij pola poprawnie. Formularz nie jest dekoracją, niestety.",dateError:"Data wyjazdu musi być późniejsza niż data przyjazdu. Czas dalej działa liniowo."},en:{navRooms:"Rooms",navRestaurant:"Restaurant",navBusiness:"Business",navLocation:"Location",navBook:"Book now",eyebrow:"Sopot • 3 minutes from the beach",heroTitle:"A seaside stay in the heart of Sopot",heroLead:"Villa Sentoza at Grunwaldzka 89 combines a coastal atmosphere, comfortable rooms, restaurant, conference facilities and quick access to Sopot’s key attractions.",heroBook:"Check booking",heroRooms:"View rooms",statRooms:"rooms and apartments",statBeach:"to Sopot Beach",statDesk:"front desk",quickContact:"Quick contact",contactTitle:"Villa Sentoza",copyAddress:"Copy address",demoNote:"Concept page based on public information.",amenitiesEyebrow:"Facilities",amenitiesTitle:"Everything you need near the sea",amenitiesLead:"Comfortable rooms, internet, parking, restaurant and work-friendly space. Civilization occasionally manages not to be annoying.",featureRestaurantTitle:"Restaurant",featureRestaurantText:"The on-site Fisherman restaurant offers American cuisine, a bar and a terrace.",featureParkingTitle:"Monitored parking",featureParkingText:"Parking is available on site, which in Sopot sounds almost like practical magic.",featureWifiTitle:"Room internet",featureWifiText:"Wi-Fi in rooms and public areas helps you work, plan the day or pretend you are resting.",featureSaunaTitle:"Sauna",featureSaunaText:"After the beach, a walk or a meeting, switch from task-mode human to rest-mode human.",roomsEyebrow:"Rooms",roomsTitle:"Three ways to stay",roomsLead:"From a short city break to a family trip. Prices are indicative, because the internet changes numbers when humans blink.",filterAll:"All",filterTwo:"Up to 2 guests",filterFour:"Up to 4 guests",doublePrice:"from PLN 320 / night",doubleTitle:"Double room",doubleText:"Around 17 m², modern style, a good choice for a short stay or business trip.",apartmentPrice:"from PLN 410 / night",apartmentTitle:"Apartment",apartmentText:"Around 40 m² with a bedroom and living room. Comfortable for up to 4 guests.",studioPrice:"from PLN 550 / night",studioTitle:"Studio",studioText:"Around 60 m², the largest option in the property, arranged across two levels.",roomWifi:"Wi-Fi",roomFridge:"Fridge",roomBathroom:"Private bathroom",roomBalcony:"Balcony",roomSafe:"Safe",roomTV:"Satellite TV",roomSpace:"Large space",roomDesk:"Work desk",roomHairdryer:"Hair dryer",restaurantEyebrow:"Restaurant and bakery",restaurantTitle:"Taste close to your room, premium laziness included",restaurantText:"Villa Sentoza is expanding its gastronomy offer, including artisan bread and catering. For guests it means less running around town and more rest.",restaurantLink:"Visit property website",businessEyebrow:"Business",businessTitle:"Conferences by the sea",businessText:"The property offers conference facilities and a meeting room, making it suitable for training, business talks and company trips where everyone pretends not to think about the beach outside.",businessButton:"Ask for an offer",locationEyebrow:"Location",locationTitle:"Grunwaldzka 89, Sopot",locationText:"Close to the beach, Monte Cassino and the pier. A place where the day can be simple: breakfast, sea, walk, dinner, sleep. Humanity will usually add 47 decisions anyway.",mapButton:"Open map",callButton:"Call",nearBeach:"Sopot Beach",nearMonte:"Monte Cassino Street",nearPier:"Sopot Pier",nearStation:"Sopot Station",formEyebrow:"Contact",formTitle:"Stay enquiry",formLead:"This form is a demo and does not send data. A sane stage before someone tapes a backend together and calls it architecture.",labelName:"Name",labelEmail:"Email",labelArrival:"Arrival",labelDeparture:"Departure",labelMessage:"Message",formButton:"Validate form",footerNote:"Concept landing page created from public information about the property.",footerContact:"Contact",footerLinks:"Links",footerRooms:"Rooms",footerMap:"Map",copied:"Copied. Technology survives another day.",formSuccess:"The form looks valid. In a real version it would now go to a backend.",formError:"Fill the fields correctly. The form is not decoration, tragically.",dateError:"Departure must be later than arrival. Time still moves forward."}};
-const state={language:localStorage.getItem("language")||"pl"};
-const header=document.querySelector("[data-header]"),navToggle=document.querySelector("[data-nav-toggle]"),navLinks=document.querySelector("[data-nav-links]"),languageToggle=document.querySelector("[data-language-toggle]"),form=document.querySelector("[data-contact-form]"),formStatus=document.querySelector("[data-form-status]");
-function setHeaderState(){header?.classList.toggle("is-scrolled",window.scrollY>12)}
-function closeMenu(){document.body.classList.remove("menu-open");navLinks?.classList.remove("is-open");navToggle?.setAttribute("aria-expanded","false")}
-function openMenu(){document.body.classList.add("menu-open");navLinks?.classList.add("is-open");navToggle?.setAttribute("aria-expanded","true")}
-function applyLanguage(language){const dictionary=translations[language]||translations.pl;document.documentElement.lang=language;document.querySelectorAll("[data-i18n]").forEach(element=>{const key=element.dataset.i18n;if(dictionary[key])element.textContent=dictionary[key]});if(languageToggle)languageToggle.textContent=language==="pl"?"EN":"PL";state.language=language;localStorage.setItem("language",language)}
-function getText(key){return translations[state.language]?.[key]||translations.pl[key]||key}
-function setupRevealAnimation(){const elements=document.querySelectorAll(".reveal");if(!("IntersectionObserver" in window)){elements.forEach(element=>element.classList.add("is-visible"));return}const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("is-visible");observer.unobserve(entry.target)}})},{threshold:.14});elements.forEach(element=>observer.observe(element))}
-function setupRoomFilter(){const buttons=document.querySelectorAll("[data-room-filter]"),cards=document.querySelectorAll("[data-capacity]");buttons.forEach(button=>{button.addEventListener("click",()=>{const filter=button.dataset.roomFilter;buttons.forEach(item=>item.classList.remove("active"));button.classList.add("active");cards.forEach(card=>{const shouldShow=filter==="all"||card.dataset.capacity===filter;card.classList.toggle("is-hidden",!shouldShow)})})})}
-function setupCopyButtons(){document.querySelectorAll("[data-copy]").forEach(button=>{button.addEventListener("click",async()=>{const value=button.dataset.copy||"";try{await navigator.clipboard.writeText(value);button.textContent=getText("copied")}catch{button.textContent=value}setTimeout(()=>{button.textContent=getText("copyAddress")},2400)})})}
-function setupForm(){if(!form)return;form.addEventListener("submit",event=>{event.preventDefault();const data=new FormData(form),arrival=new Date(data.get("arrival")),departure=new Date(data.get("departure"));if(!form.checkValidity()){formStatus.textContent=getText("formError");form.reportValidity();return}if(Number.isFinite(arrival.valueOf())&&Number.isFinite(departure.valueOf())&&departure<=arrival){formStatus.textContent=getText("dateError");return}formStatus.textContent=getText("formSuccess");form.reset()})}
-window.addEventListener("scroll",setHeaderState,{passive:true});navToggle?.addEventListener("click",()=>{const isOpen=navLinks?.classList.contains("is-open");isOpen?closeMenu():openMenu()});navLinks?.addEventListener("click",event=>{if(event.target instanceof HTMLAnchorElement)closeMenu()});languageToggle?.addEventListener("click",()=>applyLanguage(state.language==="pl"?"en":"pl"));document.querySelector("[data-year]").textContent=new Date().getFullYear();setHeaderState();applyLanguage(state.language);setupRevealAnimation();setupRoomFilter();setupCopyButtons();setupForm();
+const menuButton=document.querySelector('[data-menu-button]');
+const menu=document.querySelector('[data-menu]');
+const bookingForm=document.querySelector('[data-booking-form]');
+const lightbox=document.querySelector('[data-lightbox]');
+const lightboxImg=document.querySelector('[data-lightbox-img]');
+const closeLightbox=document.querySelector('[data-close]');
+
+function toggleMenu(){
+  const isOpen=menu.classList.toggle('open');
+  document.body.classList.toggle('menu-open',isOpen);
+  menuButton.setAttribute('aria-expanded',String(isOpen));
+}
+
+menuButton?.addEventListener('click',toggleMenu);
+menu?.addEventListener('click',event=>{
+  if(event.target.tagName==='A'){
+    menu.classList.remove('open');
+    document.body.classList.remove('menu-open');
+    menuButton.setAttribute('aria-expanded','false');
+  }
+});
+
+function setDefaultDates(){
+  if(!bookingForm)return;
+  const arrival=bookingForm.querySelector('input[name="arrival"]');
+  const departure=bookingForm.querySelector('input[name="departure"]');
+  const today=new Date();
+  const tomorrow=new Date(Date.now()+86400000);
+  arrival.valueAsDate=today;
+  departure.valueAsDate=tomorrow;
+}
+
+bookingForm?.addEventListener('submit',event=>{
+  event.preventDefault();
+  const url='https://www.sentoza.pl/';
+  window.open(url,'_blank','noopener,noreferrer');
+});
+
+function openLightbox(img){
+  lightboxImg.src=img.src;
+  lightboxImg.alt=img.alt;
+  lightbox.hidden=false;
+  document.body.style.overflow='hidden';
+}
+
+function hideLightbox(){
+  lightbox.hidden=true;
+  lightboxImg.src='';
+  document.body.style.overflow='';
+}
+
+document.querySelectorAll('.gallery-item img').forEach(img=>{
+  img.closest('button').addEventListener('click',()=>openLightbox(img));
+});
+
+closeLightbox?.addEventListener('click',hideLightbox);
+lightbox?.addEventListener('click',event=>{
+  if(event.target===lightbox)hideLightbox();
+});
+document.addEventListener('keydown',event=>{
+  if(event.key==='Escape'&&!lightbox.hidden)hideLightbox();
+});
+
+setDefaultDates();
