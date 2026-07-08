@@ -3,101 +3,216 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Koncepcyjna strona wizytówka Villa Sentoza w Sopocie: pokoje, restauracja, konferencje, lokalizacja i kontakt." />
-  <meta name="theme-color" content="#10231f" />
-  <title>Villa Sentoza | Wypoczynek w sercu Sopotu</title>
+  <meta name="description" content="Villa Sentoza Sopot — strona wizytówka: pokoje, piekarnia, restauracja, konferencje, galeria i kontakt." />
+  <meta name="theme-color" content="#111827" />
+  <title>Villa Sentoza Sopot | Wypoczynek w sercu Sopotu</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Przejdź do treści</a>
-  <header class="site-header" data-header>
-    <nav class="nav container" aria-label="Główna nawigacja">
-      <a class="brand" href="#top" aria-label="Villa Sentoza">
-        <span class="brand-mark" aria-hidden="true">✦</span>
-        <span><strong>Villa Sentoza</strong><small>Sopot</small></span>
+  <header class="topbar">
+    <div class="topline container">
+      <a href="tel:+48585204860">☎ +48 58 520 48 60</a>
+      <a href="mailto:info@sentoza.pl">✉ info@sentoza.pl</a>
+      <span>ul. Grunwaldzka 89, Sopot</span>
+    </div>
+    <nav class="nav container" aria-label="Nawigacja główna">
+      <a class="logo" href="#home" aria-label="Villa Sentoza">
+        <span>Villa</span>
+        <strong>Sentoza</strong>
       </a>
-      <button class="nav-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false" data-nav-toggle><span></span><span></span><span></span></button>
-      <div class="nav-links" data-nav-links>
-        <a href="#rooms" data-i18n="navRooms">Pokoje</a>
-        <a href="#restaurant" data-i18n="navRestaurant">Restauracja</a>
-        <a href="#business" data-i18n="navBusiness">Biznes</a>
-        <a href="#location" data-i18n="navLocation">Lokalizacja</a>
-        <a class="button button-small" href="https://www.sentoza.pl/" target="_blank" rel="noreferrer" data-i18n="navBook">Rezerwuj</a>
-        <button class="language-switch" type="button" data-language-toggle aria-label="Change language">EN</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Otwórz menu" data-menu-button>
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" data-menu>
+        <a href="#about">Villa Sentoza</a>
+        <a href="#rooms">Pokoje</a>
+        <a href="#bakery">Piekarnia</a>
+        <a href="#business">Biznes</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Kontakt</a>
+        <a class="book" href="https://www.sentoza.pl/" target="_blank" rel="noreferrer">Rezerwuj online</a>
       </div>
     </nav>
   </header>
 
-  <main id="main">
-    <section class="hero section" id="top">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow" data-i18n="eyebrow">Sopot • 3 minuty od plaży</p>
-          <h1 data-i18n="heroTitle">Wypoczynek w sercu Sopotu</h1>
-          <p class="hero-lead" data-i18n="heroLead">Kameralna Villa Sentoza przy ul. Grunwaldzkiej 89 łączy nadmorski klimat, wygodne pokoje, restaurację, zaplecze konferencyjne i szybki dostęp do najważniejszych punktów Sopotu.</p>
-          <div class="hero-actions">
-            <a class="button" href="https://www.sentoza.pl/" target="_blank" rel="noreferrer" data-i18n="heroBook">Sprawdź rezerwację</a>
-            <a class="button button-ghost" href="#rooms" data-i18n="heroRooms">Zobacz pokoje</a>
-          </div>
-          <dl class="hero-stats" aria-label="Najważniejsze informacje">
-            <div><dt>28</dt><dd data-i18n="statRooms">pokoi i apartamentów</dd></div>
-            <div><dt>200 m</dt><dd data-i18n="statBeach">do plaży w Sopocie</dd></div>
-            <div><dt>24/7</dt><dd data-i18n="statDesk">recepcja</dd></div>
-          </dl>
+  <main id="home">
+    <section class="hero">
+      <img class="hero-img" src="https://wa-uploads.profitroom.com/villasentoza/1920x1080/16525564433394_villasentozahotel02.jpg" alt="Budynek Villa Sentoza w Sopocie" />
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="kicker">Villa Sentoza • Sopot</p>
+        <h1>Wypoczynek w sercu Sopotu</h1>
+        <p class="lead">Kameralny obiekt przy Grunwaldzkiej 89, kilka minut od plaży, z pokojami, restauracją Fisherman, piekarnią rzemieślniczą i zapleczem biznesowym.</p>
+        <form class="booking" data-booking-form>
+          <label><span>Przyjazd</span><input type="date" name="arrival" required></label>
+          <label><span>Wyjazd</span><input type="date" name="departure" required></label>
+          <button type="submit">Rezerwuj online</button>
+        </form>
+      </div>
+      <a class="scroll" href="#about">Czytaj więcej ↓</a>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="kicker dark">O obiekcie</p>
+          <h2>Hotelowy klimat bez zbędnego nadęcia</h2>
+          <p>Villa Sentoza to miejsce dla ludzi, którzy chcą być blisko morza, centrum Sopotu i dobrego jedzenia, ale bez udawania pałacu z marmuru i złotych klamek. Jest praktycznie: pokoje, parking, internet, restauracja, konferencje i plaża pod ręką.</p>
         </div>
-        <aside class="booking-card reveal" aria-label="Szybki kontakt">
-          <div class="card-glow" aria-hidden="true"></div>
-          <p class="eyebrow" data-i18n="quickContact">Szybki kontakt</p>
-          <h2 data-i18n="contactTitle">Villa Sentoza</h2>
-          <p>ul. Grunwaldzka 89<br />81-771 Sopot, PL</p>
-          <div class="contact-actions"><a href="tel:+48585204860">+48 58 520 48 60</a><a href="mailto:info@sentoza.pl">info@sentoza.pl</a></div>
-          <button class="button button-full" type="button" data-copy="Villa Sentoza, ul. Grunwaldzka 89, 81-771 Sopot, +48 58 520 48 60" data-i18n="copyAddress">Kopiuj adres</button>
-          <p class="tiny" data-i18n="demoNote">Strona koncepcyjna oparta o publiczne informacje.</p>
-        </aside>
+        <div class="facts">
+          <article><strong>200 m</strong><span>do plaży w Sopocie</span></article>
+          <article><strong>15:00</strong><span>przyjazd</span></article>
+          <article><strong>12:00</strong><span>wyjazd</span></article>
+          <article><strong>50 zł</strong><span>pobyt psa lub kota / doba</span></article>
+        </div>
       </div>
     </section>
 
     <section class="section amenities">
       <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow" data-i18n="amenitiesEyebrow">Udogodnienia</p>
-          <h2 data-i18n="amenitiesTitle">Wszystko, czego potrzebujesz blisko morza</h2>
-          <p data-i18n="amenitiesLead">Bez zbędnego teatru: wygodne pokoje, internet, parking, restauracja i przestrzeń do pracy. Cywilizacja czasem potrafi nie przeszkadzać.</p>
+        <div class="section-title">
+          <p class="kicker dark">Udogodnienia</p>
+          <h2>To, czego realnie szuka gość</h2>
         </div>
-        <div class="feature-grid">
-          <article class="feature reveal"><span aria-hidden="true">🍽️</span><h3 data-i18n="featureRestaurantTitle">Restauracja</h3><p data-i18n="featureRestaurantText">Na miejscu działa restauracja Fisherman z daniami kuchni amerykańskiej, barem i tarasem.</p></article>
-          <article class="feature reveal"><span aria-hidden="true">🚘</span><h3 data-i18n="featureParkingTitle">Parking monitorowany</h3><p data-i18n="featureParkingText">Dla gości dostępny jest parking na terenie obiektu, co w Sopocie brzmi niemal jak magia użytkowa.</p></article>
-          <article class="feature reveal"><span aria-hidden="true">📶</span><h3 data-i18n="featureWifiTitle">Internet w pokoju</h3><p data-i18n="featureWifiText">Wi-Fi w pokojach i częściach wspólnych pomaga pracować, planować wyjścia albo udawać, że odpoczywasz.</p></article>
-          <article class="feature reveal"><span aria-hidden="true">🧖</span><h3 data-i18n="featureSaunaTitle">Sauna</h3><p data-i18n="featureSaunaText">Po plaży, spacerze albo konferencji można zejść z trybu człowiek-zadanie do trybu człowiek-odpoczynek.</p></article>
+        <div class="amenity-grid">
+          <article><span>🍽</span><h3>Restauracja</h3><p>Fisherman Restaurant działa przy obiekcie, więc nie trzeba polować na kolację jak człowiek pierwotny z Google Maps.</p></article>
+          <article><span>🚗</span><h3>Parking</h3><p>Bezpłatny parking dla gości hotelu, bez wcześniejszej rezerwacji według informacji obiektu.</p></article>
+          <article><span>📶</span><h3>Internet</h3><p>Wi‑Fi i internet w pokojach, czyli minimum cywilizacyjne XXI wieku.</p></article>
+          <article><span>🏖</span><h3>Morze</h3><p>Blisko plaży, molo i spacerowych tras w centrum Sopotu.</p></article>
         </div>
       </div>
     </section>
 
     <section class="section rooms" id="rooms">
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow" data-i18n="roomsEyebrow">Pokoje</p><h2 data-i18n="roomsTitle">Trzy formaty pobytu</h2><p data-i18n="roomsLead">Od krótkiego city-breaku po rodzinny wyjazd. Ceny są orientacyjne, bo internet uwielbia zmieniać liczby, gdy człowiek mrugnie.</p></div>
-        <div class="room-filter reveal" aria-label="Filtr pokoi"><button class="chip active" type="button" data-room-filter="all" data-i18n="filterAll">Wszystkie</button><button class="chip" type="button" data-room-filter="2" data-i18n="filterTwo">Do 2 osób</button><button class="chip" type="button" data-room-filter="4" data-i18n="filterFour">Do 4 osób</button></div>
-        <div class="room-grid" data-room-grid>
-          <article class="room-card reveal" data-capacity="2"><div class="room-art room-art-one" aria-hidden="true"></div><div class="room-content"><p class="price" data-i18n="doublePrice">od 320 zł / noc</p><h3 data-i18n="doubleTitle">Pokój dwuosobowy</h3><p data-i18n="doubleText">Około 17 m², nowoczesny styl, dobry wybór na krótki pobyt lub wyjazd służbowy.</p><ul><li data-i18n="roomWifi">Wi-Fi</li><li data-i18n="roomFridge">Lodówka</li><li data-i18n="roomBathroom">Prywatna łazienka</li></ul></div></article>
-          <article class="room-card reveal" data-capacity="4"><div class="room-art room-art-two" aria-hidden="true"></div><div class="room-content"><p class="price" data-i18n="apartmentPrice">od 410 zł / noc</p><h3 data-i18n="apartmentTitle">Apartament</h3><p data-i18n="apartmentText">Około 40 m², sypialnia i pokój dzienny. Wygodna opcja dla maksymalnie 4 osób.</p><ul><li data-i18n="roomBalcony">Balkon</li><li data-i18n="roomSafe">Sejf</li><li data-i18n="roomTV">TV satelitarna</li></ul></div></article>
-          <article class="room-card reveal" data-capacity="4"><div class="room-art room-art-three" aria-hidden="true"></div><div class="room-content"><p class="price" data-i18n="studioPrice">od 550 zł / noc</p><h3 data-i18n="studioTitle">Studio</h3><p data-i18n="studioText">Około 60 m², największy wariant w obiekcie, z układem na dwóch poziomach.</p><ul><li data-i18n="roomSpace">Duża przestrzeń</li><li data-i18n="roomDesk">Miejsce do pracy</li><li data-i18n="roomHairdryer">Suszarka</li></ul></div></article>
+        <div class="section-title centered">
+          <p class="kicker dark">Pokoje</p>
+          <h2>Wybierz pokój</h2>
+          <p>Trzy główne warianty pobytu: pokój dwuosobowy, apartament i studio.</p>
+        </div>
+        <div class="room-grid">
+          <article class="room-card">
+            <img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271902040.sentoza_sopot_013.jpg" alt="Pokój dwuosobowy Villa Sentoza" loading="lazy">
+            <div class="room-body">
+              <p class="price">już od 320 zł / noc</p>
+              <h3>Pokój dwuosobowy</h3>
+              <p>Około 17 m², maksymalnie 2 osoby. Nowoczesny styl, balkon, łazienka i wyposażenie do pracy oraz odpoczynku.</p>
+              <ul><li>maks. 2 osoby</li><li>łazienka</li><li>balkon</li><li>Wi‑Fi</li></ul>
+              <a href="https://www.sentoza.pl/pokoje/pokoj-dwuosobowy" target="_blank" rel="noreferrer">Szczegóły</a>
+            </div>
+          </article>
+          <article class="room-card">
+            <img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271901440.sentoza_sopot_029.jpg" alt="Apartament Villa Sentoza" loading="lazy">
+            <div class="room-body">
+              <p class="price">już od 410 zł / noc</p>
+              <h3>Apartament</h3>
+              <p>Około 40 m², dwa pomieszczenia: sypialnia i pokój dzienny. Wygodna opcja dla maksymalnie 4 osób.</p>
+              <ul><li>maks. 4 osoby</li><li>część wypoczynkowa</li><li>sejf</li><li>lodówka</li></ul>
+              <a href="https://www.sentoza.pl/pokoje/apartament" target="_blank" rel="noreferrer">Szczegóły</a>
+            </div>
+          </article>
+          <article class="room-card">
+            <img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271902170.sentoza_sopot_034.jpg" alt="Studio Villa Sentoza" loading="lazy">
+            <div class="room-body">
+              <p class="price">już od 550 zł / noc</p>
+              <h3>Studio</h3>
+              <p>Około 60 m², dwa poziomy, część dzienna, sypialnia, balkon i przestrzeń dla maksymalnie 4 osób.</p>
+              <ul><li>60 m²</li><li>maks. 4 osoby</li><li>aneks kuchenny</li><li>biurko</li></ul>
+              <a href="https://www.sentoza.pl/pokoje/studio" target="_blank" rel="noreferrer">Szczegóły</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section split" id="restaurant"><div class="container split-grid"><div class="split-art reveal" aria-hidden="true"><div class="plate"></div><div class="steam steam-one"></div><div class="steam steam-two"></div><div class="steam steam-three"></div></div><div class="split-copy reveal"><p class="eyebrow" data-i18n="restaurantEyebrow">Restauracja i piekarnia</p><h2 data-i18n="restaurantTitle">Smak blisko pokoju, czyli lenistwo w wersji premium</h2><p data-i18n="restaurantText">Villa Sentoza rozwija ofertę gastronomiczną, w tym rzemieślnicze pieczywo i catering. Dla gości oznacza to prostą rzecz: mniej biegania po mieście, więcej odpoczynku.</p><a class="text-link" href="https://www.sentoza.pl/" target="_blank" rel="noreferrer" data-i18n="restaurantLink">Przejdź na stronę obiektu</a></div></div></section>
+    <section class="section bakery" id="bakery">
+      <div class="container split">
+        <div class="photo-stack">
+          <img class="photo-main" src="https://r.profitroom.pl/villasentoza/images/thumbs/1920x1080/202311081201170.21.jpg?updated=2025-10-21_02-29" alt="Piekarnia rzemieślnicza Villa Sentoza" loading="lazy">
+          <img class="photo-small" src="https://r.profitroom.pl/villasentoza/images/gallery/201410271902470.sentoza_sopot_025.jpg" alt="Wnętrze Villa Sentoza" loading="lazy">
+        </div>
+        <div>
+          <p class="kicker dark">Restauracja i piekarnia</p>
+          <h2>Piekarnia rzemieślnicza dla gości Villa Sentoza</h2>
+          <p>Na miejscu działa piekarnia przy restauracji Fisherman. Oferta opiera się na pieczywie rzemieślniczym, naturalnych składnikach i wypiekach przygotowywanych bez masowej taśmy produkcyjnej, bo czasem ludzkość jeszcze potrafi zrobić chleb jak należy.</p>
+          <div class="bakery-list">
+            <span>chleb pszenny</span><span>chleb żytni</span><span>brioche</span><span>bagietka</span><span>shokupan</span><span>kawa</span>
+          </div>
+          <a class="button dark" href="https://www.sentoza.pl/restauracja/piekarnia" target="_blank" rel="noreferrer">Zobacz piekarnię</a>
+        </div>
+      </div>
+    </section>
 
-    <section class="section business" id="business"><div class="container business-card reveal"><div><p class="eyebrow" data-i18n="businessEyebrow">Biznes</p><h2 data-i18n="businessTitle">Konferencje nad morzem</h2><p data-i18n="businessText">Obiekt ma zaplecze konferencyjne i salę spotkań, więc nadaje się także na szkolenia, rozmowy biznesowe i firmowe wyjazdy, gdzie ludzie udają, że nie myślą o plaży za oknem.</p></div><a class="button" href="mailto:info@sentoza.pl?subject=Zapytanie%20biznesowe%20-%20Villa%20Sentoza" data-i18n="businessButton">Zapytaj o ofertę</a></div></section>
+    <section class="section business" id="business">
+      <div class="container business-panel">
+        <div>
+          <p class="kicker">Biznes</p>
+          <h2>Konferencje i spotkania w Sopocie</h2>
+          <p>Villa Sentoza oferuje zaplecze dla firm: spotkania, szkolenia, wyjazdy integracyjne i obsługę gastronomiczną. Czyli praca, ale przynajmniej blisko morza, więc człowiek ma do czego uciec wzrokiem.</p>
+        </div>
+        <a class="button light" href="mailto:info@sentoza.pl?subject=Zapytanie%20biznesowe%20-%20Villa%20Sentoza">Zapytaj o ofertę</a>
+      </div>
+    </section>
 
-    <section class="section location" id="location"><div class="container location-grid"><div class="reveal"><p class="eyebrow" data-i18n="locationEyebrow">Lokalizacja</p><h2 data-i18n="locationTitle">Grunwaldzka 89, Sopot</h2><p data-i18n="locationText">Blisko plaży, Monte Cassino i Molo. Taka lokalizacja, gdzie plan dnia może być prosty: śniadanie, morze, spacer, kolacja, sen. Ludzkość jednak zwykle doda do tego 47 decyzji.</p><div class="location-actions"><a class="button" href="https://www.google.com/maps/search/?api=1&query=Villa%20Sentoza%20Grunwaldzka%2089%20Sopot" target="_blank" rel="noreferrer" data-i18n="mapButton">Otwórz mapę</a><a class="button button-ghost" href="tel:+48585204860" data-i18n="callButton">Zadzwoń</a></div></div><div class="timeline reveal" aria-label="Odległości w okolicy"><div><span>03 min</span><p data-i18n="nearBeach">Sopot Beach</p></div><div><span>10 min</span><p data-i18n="nearMonte">ul. Monte Cassino</p></div><div><span>11 min</span><p data-i18n="nearPier">Molo w Sopocie</p></div><div><span>15 min</span><p data-i18n="nearStation">Stacja Sopot</p></div></div></div></section>
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-title centered">
+          <p class="kicker dark">Galeria</p>
+          <h2>Zdjęcia obiektu</h2>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item big" type="button"><img src="https://wa-uploads.profitroom.com/villasentoza/1920x1080/16525564433394_villasentozahotel02.jpg" alt="Villa Sentoza z zewnątrz" loading="lazy"></button>
+          <button class="gallery-item" type="button"><img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271902040.sentoza_sopot_013.jpg" alt="Pokój Villa Sentoza" loading="lazy"></button>
+          <button class="gallery-item" type="button"><img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271901440.sentoza_sopot_029.jpg" alt="Apartament Villa Sentoza" loading="lazy"></button>
+          <button class="gallery-item" type="button"><img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271902170.sentoza_sopot_034.jpg" alt="Studio Villa Sentoza" loading="lazy"></button>
+          <button class="gallery-item" type="button"><img src="https://r.profitroom.pl/villasentoza/images/gallery/201410271902320.sentoza_sopot_005.jpg" alt="Wnętrze Villa Sentoza" loading="lazy"></button>
+          <button class="gallery-item wide" type="button"><img src="https://r.profitroom.pl/villasentoza/images/thumbs/1920x1080/202311081201170.21.jpg?updated=2025-10-21_02-29" alt="Piekarnia Villa Sentoza" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
 
-    <section class="section contact" id="contact"><div class="container contact-grid"><div class="section-head reveal"><p class="eyebrow" data-i18n="formEyebrow">Kontakt</p><h2 data-i18n="formTitle">Zapytanie o pobyt</h2><p data-i18n="formLead">Formularz jest demonstracyjny i nie wysyła danych. Bezpieczne rozwiązanie, zanim ktoś podłączy backend taśmą klejącą i nazwie to architekturą.</p></div><form class="contact-form reveal" data-contact-form novalidate><label><span data-i18n="labelName">Imię</span><input name="name" type="text" autocomplete="name" required minlength="2" /></label><label><span data-i18n="labelEmail">E-mail</span><input name="email" type="email" autocomplete="email" required /></label><div class="form-row"><label><span data-i18n="labelArrival">Przyjazd</span><input name="arrival" type="date" required /></label><label><span data-i18n="labelDeparture">Wyjazd</span><input name="departure" type="date" required /></label></div><label><span data-i18n="labelMessage">Wiadomość</span><textarea name="message" rows="4" required minlength="10"></textarea></label><button class="button button-full" type="submit" data-i18n="formButton">Sprawdź formularz</button><p class="form-status" data-form-status role="status" aria-live="polite"></p></form></div></section>
+    <section class="section info">
+      <div class="container info-grid">
+        <article><h3>Informacje praktyczne</h3><p>Przyjazd od 15:00, wyjazd do 12:00. Psy i koty są mile widziane, opłata według strony obiektu to 50 zł za dobę.</p></article>
+        <article><h3>Parking</h3><p>Parking dla gości jest bezpłatny i nie wymaga rezerwacji. W Sopocie to brzmi prawie podejrzanie dobrze.</p></article>
+        <article><h3>Okolica</h3><p>Plaża, Monte Cassino, molo i centrum Sopotu są blisko, więc da się zrobić normalny plan dnia bez logistycznej wojny.</p></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="kicker dark">Kontakt</p>
+          <h2>Villa Sentoza</h2>
+          <address>
+            ul. Grunwaldzka 89<br>
+            81-771 Sopot, PL<br><br>
+            <a href="tel:+48585204860">+48 58 520 48 60</a><br>
+            <a href="mailto:info@sentoza.pl">info@sentoza.pl</a>
+          </address>
+          <div class="contact-actions">
+            <a class="button dark" href="https://www.google.com/maps/search/?api=1&query=Villa%20Sentoza%20Grunwaldzka%2089%20Sopot" target="_blank" rel="noreferrer">Otwórz mapę</a>
+            <a class="button outline" href="https://www.sentoza.pl/" target="_blank" rel="noreferrer">Oficjalna strona</a>
+          </div>
+        </div>
+        <iframe title="Mapa Villa Sentoza" src="https://www.google.com/maps?q=Villa%20Sentoza%20Grunwaldzka%2089%20Sopot&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer"><div class="container footer-grid"><div><a class="brand" href="#top" aria-label="Villa Sentoza"><span class="brand-mark" aria-hidden="true">✦</span><span><strong>Villa Sentoza</strong><small>Sopot</small></span></a><p data-i18n="footerNote">Koncepcyjna strona wizytówka stworzona na bazie publicznych informacji o obiekcie.</p></div><div><strong data-i18n="footerContact">Kontakt</strong><p>ul. Grunwaldzka 89<br />81-771 Sopot, PL</p><p><a href="tel:+48585204860">+48 58 520 48 60</a><br /><a href="mailto:info@sentoza.pl">info@sentoza.pl</a></p></div><div><strong data-i18n="footerLinks">Linki</strong><p><a href="https://www.sentoza.pl/" target="_blank" rel="noreferrer">sentoza.pl</a><br /><a href="#rooms" data-i18n="footerRooms">Pokoje</a><br /><a href="#location" data-i18n="footerMap">Mapa</a></p></div></div><p class="copyright">© <span data-year></span> Villa Sentoza concept. Static HTML/CSS/JS.</p></footer>
+  <div class="lightbox" data-lightbox hidden>
+    <button type="button" aria-label="Zamknij galerię" data-close>×</button>
+    <img src="" alt="Powiększone zdjęcie" data-lightbox-img>
+  </div>
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Hotel","name":"Villa Sentoza","address":{"@type":"PostalAddress","streetAddress":"ul. Grunwaldzka 89","postalCode":"81-771","addressLocality":"Sopot","addressCountry":"PL"},"telephone":"+48 58 520 48 60","email":"info@sentoza.pl","url":"https://www.sentoza.pl/"}</script>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><strong>Villa Sentoza</strong><p>Strona wizytówka HTML/CSS/JS przygotowana jako projekt statyczny.</p></div>
+      <div><strong>Kontakt</strong><p>ul. Grunwaldzka 89<br>81-771 Sopot<br>+48 58 520 48 60</p></div>
+      <div><strong>Linki</strong><p><a href="#rooms">Pokoje</a><br><a href="#bakery">Piekarnia</a><br><a href="#contact">Kontakt</a></p></div>
+    </div>
+  </footer>
+
   <script src="script.js" defer></script>
 </body>
 </html>
